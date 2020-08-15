@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#new{
+    background: black;
+}
+#temp{
+    display: inline-block;
+    position: absolute;
+    color: white;
+    margin-top: 54px;
+    margin-left: 121px;
+    font-size: 53px;
+}
+#wind{
+    margin-left: 341px;
+    margin-top: 59px;
+    color: white;
+    position: absolute;
+}
+#p1,#p2{
+    margin-bottom: 15px;
+}
+button{
+    background: transparent;
+    color: #757575;
+    width: 73px;
+    height: 32px;
+}
+input{
+    margin: 10px;
+    margin-left: 246px;
+    border: #767676;
+    text-align: center;
+    height: 20px;
+    color: white;
+    font-weight: bolder;
+    background: transparent;
+    font-size: 17px;
+}
+#weather-image{
+    height: 100px;
+    width: 150px;
+    margin-top: 61px;
+    border-radius: 10px;
+    margin-left: 19px;
+}
+#weather{
+    border-radius: 10px;
+    border: 2px solid #608094;
+    background: linear-gradient(#020213,#000e20,#0161c1);
+    display: inline-block;
+    width: 687px;
+    position: absolute;
+}
+img,span{
+    display: inline-block;
+    width: 334px;
+    height: 311px;
+}
+#b1{
+    margin-top: 5px;
+}

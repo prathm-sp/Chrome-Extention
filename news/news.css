@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: black;
+}
+#corona{
+    cursor: pointer;
+}
+#i1,#i2,#i3,#i4,#i5,#i6,#i7,#i8,#i9,#i10{
+    width: 56px;
+    height: 52px;
+    position: relative;
+    top: -131px;
+    left: 255px;
+}
+img{
+    display: inline;
+    width: 200px;
+    height: 300px;
+}
+span{
+    color: blanchedalmond;
+    font-size: 100px;
+    position: relative;
+    top: -215px;
+    left: 218px;
+}
+p{
+    color: blanchedalmond;
+    font-size: 20px;
+    position: relative;
+    left: 325px;
+    bottom: 200px;
+}

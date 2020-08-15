@@ -1,0 +1,40 @@
+*{
+    margin-top: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: bolder;
+    background: linear-gradient(#c3c3da, #adadfb, #494998);
+}
+option{
+    background: linear-gradient(#c3c3da, #adadfb, #494998);
+}
+span,button,#input{
+    animation-name: all ;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+button{
+    cursor: pointer;
+}
+@keyframes all{
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+#input{
+    margin-left: 383px;
+}
+#s0{
+    display: inline-block;
+}
+#s{
+    display: inline-block;
+    margin-left: 100px;
+}
+span{
+    display: block;
+    margin-top: 20px;
+}

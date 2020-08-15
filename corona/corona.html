@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="corona.css">
+</head>
+
+<body>
+    <input type="text" list="corona" id="input">
+    <datalist id="corona" onclick="getCountryData()">
+    </datalist>
+    <button id="btn">submit</button>
+    <span id="s">World Data</span>
+    <div id="para"></div>
+    <div id="spans">
+        <span id="s0"></span>
+        <span id="s1" hidden>total_cases:
+        </span>
+        <span id="s2">total_recovered:
+        </span>
+        <span id="s3">total_deaths:
+        </span>
+        <span id="s4">active_cases:
+        </span>
+        <span id="s5"> new_cases:
+        </span>
+        <span id="s6">new_deaths:
+        </span>
+        <span id="s7">deaths_per_1m_population:
+        </span>
+        <span id="s8">total_cases_per_1m_population:
+        </span>
+        <span id="s9"> serious_critical:
+        </span></div>
+    <script src="corona.js"></script>
+</body>
+
+</html>
